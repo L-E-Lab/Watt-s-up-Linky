@@ -1,0 +1,122 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "LTV-814S"
+   (description "Optocoupler LTV-814S")
+   (family "ANA")
+   (package "SOP254P1016X460-4N")
+   (attribute "Datasheet Link" "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-17/DSA-322887.pdf")
+   (attribute "Geometry.Height" "4.6mm")
+   (attribute "Manufacturer_Name" "Lite-On")
+   (attribute "Manufacturer_Part_Number" "LTV-814S")
+   (attribute "Mouser Part Number" "859-LTV-814S")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Lite-On/LTV-814S?qs=JzJdhgWJh%252BMQRrTS0RmA%252BA%3D%3D")
+   (attribute "Arrow Part Number" "LTV-814S")
+   (attribute "Arrow Price/Stock" "https://www.arrow.com/en/products/ltv-814s/lite-on-technology?utm_currency=USD&region=nac")
+   (gate
+    (symbol "LTV-814S")
+    (pin "ANODE_CATHODE" 1 IP)
+    (pin "CATHODE_ANODE" 2 IP)
+    (pin "COLLECTOR" 4 OP)
+    (pin "EMITTER" 3 OP)
+   )
+  )
+  (symbol "LTV-814S"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 1700 100) (pt 1700 -200) (pt 200 -200) (pt 200 100) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -100) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1900 0) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1900 -100) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "SOP254P1016X460-4N"
+   (units MM)
+   (layer OCCA
+    (graphic
+     (stroke 0.05)
+     (path
+      (closed true)
+      (pt -5.85 2.8)
+      (pt 5.85 2.8)
+      (pt 5.85 -2.8)
+      (pt -5.85 -2.8)
+      (pt -5.85 2.8))))
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -3.25 2.3)
+      (pt 3.25 2.3)
+      (pt 3.25 -2.3)
+      (pt -3.25 -2.3)
+      (pt -3.25 2.3))))
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed false)
+      (pt -3.25 -0.24)
+      (pt -0.71 2.3))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed true)
+      (pt -3.15 2.3)
+      (pt 3.15 2.3)
+      (pt 3.15 -2.3)
+      (pt -3.15 -2.3)
+      (pt -3.15 2.3))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt -5.6 2.345)
+      (pt -3.5 2.345))))
+   (leg 1 (pt -4.55 1.27) (padstack 0))
+   (leg 2 (pt -4.55 -1.27) (padstack 0))
+   (leg 3 (pt 4.55 -1.27) (padstack 0))
+   (leg 4 (pt 4.55 1.27) (padstack 0))
+   (padstack 0
+    (plated false)
+    (pad (layer TCOP) (rectf 1.45 2.1 0 0 0))
+   )
+   (model "LTV-814S.stp"
+    (euler 0 0 90)
+    (offset 4.960000038146973 -4.369999885559082 -5.800000190734863)
+   )
+  )
+ )
+)

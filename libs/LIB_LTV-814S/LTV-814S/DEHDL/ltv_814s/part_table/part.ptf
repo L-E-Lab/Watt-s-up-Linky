@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'LTV_814S'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Lite-On", "LTV-814S" (!) = "", "SOP254P1016X460-4N", "Small Outline Packages", "859-LTV-814S", "https://www.mouser.co.uk/ProductDetail/Lite-On/LTV-814S?qs=JzJdhgWJh%252BMQRrTS0RmA%252BA%3D%3D", "LTV-814S", "https://www.arrow.com/en/products/ltv-814s/lite-on-technology?utm_currency=USD&region=nac", "Optocoupler LTV-814S", "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-17/DSA-322887.pdf", "4.6 mm"
+END_PART
+
+END.

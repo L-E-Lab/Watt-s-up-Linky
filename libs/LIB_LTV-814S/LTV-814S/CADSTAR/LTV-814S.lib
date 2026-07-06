@@ -1,0 +1,18 @@
+.LTV-814S :1 ;Optocoupler LTV-814S
+SOP254P1016X460-4N
+*STM HY
+*NGS
+*PLB 1="ANODE, CATHODE" 2="CATHODE, ANODE" 3="EMITTER" 4="COLLECTOR"
+*MXP 4
+*DFN LTV-814S
+~!Manufacturer_Name (Lite-On)
+~!Manufacturer_Part_Number (LTV-814S)
+~!Mouser Part Number (859-LTV-814S)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Lite-On/LTV-814S?qs=JzJdhgWJh%252BMQRrTS0RmA%252BA%3D%3D)
+~!Arrow Part Number (LTV-814S)
+~!Link Arrow Price/Stock (https://www.arrow.com/en/products/ltv-814s/lite-on-technology?utm_currency=USD&region=nac)
+~!Link Datasheet (https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-17/DSA-322887.pdf)
+~!Height (4.6mm)
+~!3D_Model (LTV-814S)
+LTV-814S
+1.1!I 2.1!I 4.1!Y 3.1!Y 

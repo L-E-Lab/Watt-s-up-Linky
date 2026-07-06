@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP LTV-814S
+D Optocoupler LTV-814S
+K
+F https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-17/DSA-322887.pdf
+$ENDCMP
+#
+#End Doc Library

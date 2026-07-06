@@ -1,0 +1,9 @@
+Manufacturer=Lite-On
+PartNumber=LTV-814S
+PartCategory=Circulator or Directional Coupler
+PackageCategory=Small Outline Packages
+PinCount=4
+Version=2.1
+Released=2017-05-30 07:29:13
+Downloaded=2025-06-24 12:35:00
+3D=Y
